@@ -1,0 +1,61 @@
+@impor url (https://fonts.googleapis.com/css?family=Muli);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: ´Muli´,sans-serif;
+	text-align: justify;
+}
+header{
+	background: white;
+	height: 130px;
+	overflow: hidden;
+}
+footer{
+	margin-top: 20px;
+	background: #1068F4;
+	height:50px;
+}
+header div, footer div{
+	width: 80%;
+	margin: 0 auto;
+	color:black;
+	padding-top: 1%;
+}
+header h1{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	padding-top: 0.5rem;
+}
+header h2{
+	font-size: 1.5rem;
+}
+section{
+	margin:0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+section article h3{
+	color:#16A085;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.btn-light{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.topmargin-sm{margin-top: 30px;}
+
+
+#img{
+	text-align: center;
+}
